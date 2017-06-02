@@ -1,0 +1,17 @@
+def analyze_text(text):
+    char_a = 0
+    lowere = text.count("e") 
+    uppere = text.count("E") 
+    totale = lowere + uppere
+    totale_s = str(totale)
+
+    
+    for ch in text:
+        if ch.isalpha():
+            char_a = char_a + 1
+            percent = (int(totale) / char_a) *100
+                        
+            char_s = str(char_a)
+            percent_s = str(percent)
+            
+    return "The text contains " + char_s + " alphabetic characters, of which " + totale_s + " (" + percent_s + "%) are 'e'."

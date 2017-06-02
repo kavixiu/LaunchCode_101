@@ -1,0 +1,3 @@
+def mirror(text):
+    answer = text[::-1]
+    return text+answer      

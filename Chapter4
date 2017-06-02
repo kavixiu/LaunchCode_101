@@ -1,0 +1,9 @@
+#TODO1
+for nums in(12, 10, 32, 3, 66, 17, 42, 99, 20):
+    print(nums)
+
+#TODO2
+for nums in(12, 10, 32, 3, 66, 17, 42, 99, 20):
+    print("The square of", nums, "is", nums ** 2)
+  
+

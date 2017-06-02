@@ -1,0 +1,9 @@
+def sum_of_initial_odds(nums):
+    for n in nums:     
+        if n % 2 == 0:               
+            x = nums.index(n)
+            newlist = nums[0:x]   
+            firstodds = sum(newlist) 
+            return(firstodds)
+        elif n % 2 != 0 and n > 5:
+            return sum(nums) 

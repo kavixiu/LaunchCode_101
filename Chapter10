@@ -1,0 +1,7 @@
+def sum_evens(lst):
+    lst = list(lst)
+    for n in lst:
+        if n % 2 != 0:
+            lst.remove(n) 
+    allevens = sum(lst)
+    return(allevens)

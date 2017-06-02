@@ -1,0 +1,16 @@
+clicks_str = input("By how many clicks has the dial been turned?")
+clicks = int(clicks_str) #converts string to integer
+
+# TODO calculate the temperature, and report it back to the user
+
+temp_str = (clicks + 40) % 50 #number of clicks plus base of 40 degrees, modified by 50 total clicks
+temp = int(temp_str) #converts string to integer
+
+if clicks > 49: #if clicks turned are greater than 49
+    print("The temperature is", clicks - 10) #then print clicks - 10
+    
+if clicks <= 49 and clicks >= 0: #if clicks turned are less than or equal to 49
+    print("The temperature is", clicks + 40) #then print clicks + 40
+    
+if clicks < 0:
+    print("The temperature is", clicks + 90)

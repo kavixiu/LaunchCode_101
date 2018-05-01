@@ -1,0 +1,98 @@
+ /* Styling for Europe Trip webpage */
+html {
+	margin: 0;
+	padding: 0;
+	}
+
+header {
+	padding-top: 200px;
+    }
+
+body { 
+	font: 75% Verdana, sans-serif;
+	line-height: 2;
+	color: #555753; 
+	background: gray; 
+	margin: 100; 
+	padding: 100;
+	}
+
+div {
+    width: auto;
+    margin: auto;
+    border: 0px;
+    }
+
+
+div.header {
+    width: 100%;
+    position: relative;
+    align: center;
+    }
+
+div.center{
+    align: center;
+    text-align: center;
+    font-style: italic;
+    }
+
+div img {
+    width: 100%;
+    overflow: hidden;
+    }
+
+p { 
+	margin-top: 50px; 
+    margin-bottom: 25px;
+	text-align: center justify;
+	}
+
+p.center {
+    text-align: center justify;
+    }
+
+h1.header{
+    font-style: none;
+    font-family: Lucida Grande;
+    font-size: 40px;
+    color: #33ABF0;
+    text-align: center;
+    }
+
+h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
+    position: center;
+	}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    }
+
+#caption {
+    font-style: italic;
+    color: gray;
+    position: relative;
+    margin: 0px 100px 0px 200px;
+    }
+
+#center {
+    position: relative;
+    text-align: center;
+}
+
+.page-wrapper { 
+	background: white; 
+	padding: 0 100px 0 100px;  
+	margin: 50px 50px 50px 50px; 
+	position: relative;
+	}
+
+footer { 
+	text-align: center; 
+	}
+
+
